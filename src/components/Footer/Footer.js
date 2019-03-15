@@ -6,9 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div>
-          Wiggins
-          Shannon
-          Spenski  &copy;
+          Mitchell Spenski  &copy;
       </div>
       </footer>
     );
