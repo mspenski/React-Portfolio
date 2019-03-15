@@ -1,0 +1,12 @@
+#navbarColor02{
+  position: relative;
+  margin-left: 50%;
+}
+
+#navbar-brand {
+margin-left: 5%;
+background-color: #f7f7f9;
+/* color: #919958; */
+color: black;
+padding-top: 10px;
+}
