@@ -14,7 +14,33 @@ class Portfolio extends Component {
           </div>
 
           <div className="col-3">
-            <p>
+            <p className='text' id='text1'>
+              text
+            </p>
+          </div>
+
+        </div>
+        <br />
+        <div className="row" id='row2'>
+          <div className="col-3">
+            <p className='text' id='text2'>
+              text
+            </p>
+          </div>
+          <div className="col-9">
+            <img src={omega} alt='college' />
+          </div>
+
+
+        </div>
+        <br />
+        <div className="row" id='row3'>
+          <div className="col-9">
+            <img src={bamazon} alt='college' />
+          </div>
+
+          <div className="col-3">
+            <p className='text' id='text3'>
               text
             </p>
           </div>
