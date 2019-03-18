@@ -9,6 +9,19 @@ class Portfolio extends Component {
     return (
       <>
         <div className="row" id='row1'>
+          <div className="col-3">
+            <p className='text' id='text2'>
+              text
+            </p>
+          </div>
+          <div className="col-9">
+            <img src={omega} alt='college' />
+          </div>
+        </div>
+
+        <br />
+
+        <div className="row" id='row2'>
           <div className="col-9">
             <img src={college} alt='college' />
           </div>
@@ -17,18 +30,6 @@ class Portfolio extends Component {
             <p className='text' id='text1'>
               text
             </p>
-          </div>
-
-        </div>
-        <br />
-        <div className="row" id='row2'>
-          <div className="col-3">
-            <p className='text' id='text2'>
-              text
-            </p>
-          </div>
-          <div className="col-9">
-            <img src={omega} alt='college' />
           </div>
 
 
