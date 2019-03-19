@@ -15,13 +15,13 @@ class Nav extends Component {
 
         <div className="collapse navbar-collapse" id="navbarColor02">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
+            <li className="nav-item hvr-grow">
               <a className="nav-link" href="/home">About</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item hvr-grow">
               <a className="nav-link" href="/portfolio">Portfolio</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item hvr-grow">
               <a className="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
