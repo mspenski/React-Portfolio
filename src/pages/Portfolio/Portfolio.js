@@ -13,6 +13,7 @@ class Portfolio extends Component {
             <img src={omega} alt='Omega Chat' />
           </div>
           <div className="col-3">
+            <h4>Omega Chat</h4>
             <p className='text' id='text1'>
               text
             </p>
@@ -23,6 +24,7 @@ class Portfolio extends Component {
 
         <div className="row" id='row2'>
           <div className="col-3">
+            <h4>COL-lege</h4>
             <p className='text' id='text2'>
               text
             </p>
@@ -41,6 +43,7 @@ class Portfolio extends Component {
           </div>
 
           <div className="col-3">
+            <h4>Bamazon</h4>
             <p className='text' id='text3'>
               text
             </p>
