@@ -1,3 +1,7 @@
 body {
+  height: 100vh;
   background: url('../../white-waves.png')
+}
+.App {
+  height: 100vh;
 }

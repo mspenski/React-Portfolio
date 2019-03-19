@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div>
-          Mitchell Spenski  &copy;
+          Mitchell Spenski
           <a className="footer-link" href="https://github.com/mspenski">
             <i className="fab fa-github"></i></a>
           <a className="footer-link" href="https://www.linkedin.com/in/mitchellspenski">

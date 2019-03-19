@@ -3,7 +3,6 @@ footer {
   clear: both;
   font-size: 20px;
   text-align: center;
-  height: 50px;
   margin-top: 100px;
   margin-bottom: -1rem;
 }
@@ -16,9 +15,8 @@ footer {
 
 .footer {
   left: 0;
-  bottom: -1em;
   width: 100%;
-  margin-top: 20vh;
+  margin-top: 30vh;
   color: white;
   background-color: #343a40;
 }
