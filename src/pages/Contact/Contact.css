@@ -1,3 +1,7 @@
 label {
   text-align: left;
 }
+
+.jumbotron {
+  background: url('../../white-waves.png')
+}
