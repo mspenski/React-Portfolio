@@ -4,38 +4,24 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      <div className="jumbotron">
-        <div class="card">
+      // <div className="jumbotron">
+      <div class="card contact-card">
 
-          <div class="card-header">
-            <h1>Contact</h1>
-          </div>
-
-          <div class="card-body">
-
-            <form>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Name</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Full Name" />
-              </div>
-
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Enter email" />
-              </div>
-
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-
-          </div>
+        <div class="card-header contact-card-header">
+          <h1>Contact Me</h1>
         </div>
 
+        <div class="card-body">
+
+          <h5><i class="fas fa-at"></i> Email: <a href='mailto:mspenski@gmail.com'>mspenski@gmail.com</a></h5>
+          <h5><i class="fas fa-phone"></i> Phone: 336-410-3963</h5>
+          <h5><i className="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mitchellspenski">Add me on LinkedIn </a></h5>
+          <h5><i class="fab fa-github"></i> <a href="https://github.com/mspenski">See my other projects on github </a></h5>
+
+        </div>
       </div>
+
+      // </div>
     )
   }
 }

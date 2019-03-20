@@ -5,3 +5,14 @@ label {
 .jumbotron {
   background: url('../../white-waves.png')
 }
+
+.contact-card {
+  /* text-align: center; */
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.contact-card-header {
+  text-align: center;
+
+}
