@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Home.css"
-import pic from "./pic1.jpeg"
+import pic from "./headshot.JPG"
 
 class HomePage extends Component {
   render() {
@@ -26,14 +26,12 @@ class HomePage extends Component {
                   with my life. I wanted to fully immerse myself in the world of Information Technology. </p>
 
               <p>After moving to Charlotte, I really started to drill down on what specifically I wanted to do for a
-                  career. After months of evaluating the myriad of options available, II settled on the 12 week UNCC
+                  career. After months of evaluating the myriad of options available, I settled on the 12 week UNCC
                   Coding Bootcamp.</p>
 
-              <p>During my short tenure in web development and coding, I have come to truly enjoy both the Front End
-                  and Back End. However, I have also realized that my strength is in the Back End. While I am
-                  extremely comfortable with Front End technologies, I don’t have the “eye for design” like a lot of
-                  others. My brain has always been more geared towards logic and numbers as opposed to design and
-                  creativity.</p>
+              <p>During my short tenure in web development and coding, I have come to truly enjoy both Front End
+                  and Back End work. I have specifically come to love working with Javascript and databases such as Mongo DB and MySQL.
+                  I am seeking an opportunity that will allow me to utilize the vast amount of knowledge that I have gained to contribute to an organization's overall success.</p>
             </div>
           </div>
         </div>

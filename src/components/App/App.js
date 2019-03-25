@@ -5,7 +5,7 @@ import Contact from '../../pages/Contact/Contact'
 import Portfolio from '../../pages/Portfolio/Portfolio'
 import NotFound from '../../pages/NotFound/NotFound'
 import Nav from '../Nav/Nav'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 
 import './App.css';
 
@@ -25,7 +25,7 @@ class App extends Component {
             <Route component={NotFound} />
           </Switch>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
