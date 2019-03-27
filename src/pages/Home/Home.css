@@ -7,3 +7,17 @@
 }
 
 
+@media screen and (max-width: 375px) {
+  .auth-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-header {
+    text-align: center;
+  }
+
+  .container {
+    margin-bottom: 20px;
+  }
+}
