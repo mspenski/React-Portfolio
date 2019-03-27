@@ -8,7 +8,7 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <div className="row" id='row1'>
+        <div className="row">
           <div className="col-9">
             <a href="https://rocky-island-31181.herokuapp.com" target="_blank" rel='noopener noreferrer'>
               <img src={omega} alt='Omega Chat' />
@@ -19,14 +19,14 @@ class Portfolio extends Component {
             <p className='text' id='text1'>
               This app was created to simplify and improve communication between members of large Greek Life Organizations. This project was the final project of the bootcamp, and also my brain child, so I was in charge of the entire backend as well as about half of the front end
             </p>
-            <p className='text' id='text1'><a href="https://github.com/mspenski/Omege-Chat" target="_blank" rel='noopener noreferrer'>See Project Repo</a></p>
+            <p className='text' id='text1'><a href="https://github.com/mspenski/Omega-Chat" target="_blank" rel='noopener noreferrer'>See Project Repo</a></p>
             <p className='text' id='text1'><a href="https://rocky-island-31181.herokuapp.com" target="_blank" rel='noopener noreferrer'>See Deployed Project</a></p>
           </div>
         </div>
 
         <br />
 
-        <div className="row" id='row2'>
+        <div className="row">
           <div className="col-3">
             <h4>COL-lege</h4>
             <p className='text' id='text2'>

@@ -25,3 +25,14 @@ h4 {
   text-align: center;
 }
 
+
+/* @media screen and (max-width: 375px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+  .row {
+    display: block;
+    width: 100%;
+    align-content: center;
+  }
+} */
