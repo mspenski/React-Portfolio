@@ -6,7 +6,7 @@ class HomePage extends Component {
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container  wow fadeIn">
           <div className="card">
 
             <div className="card-header">

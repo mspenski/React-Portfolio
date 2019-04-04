@@ -4,8 +4,7 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      // <div className="jumbotron">
-      <div className="card contact-card" id='contact-card'>
+      <div className="card contact-card  wow fadeIn" id='contact-card'>
 
         <div className="card-header contact-card-header">
           <h1>Contact Me</h1>
