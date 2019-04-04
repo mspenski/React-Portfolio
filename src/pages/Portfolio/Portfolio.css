@@ -27,13 +27,16 @@ h4 {
 
 
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   [class*='col-'] {
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    row-gap: 10px;
   }
   .row {
     display: block;
-    width: 100%;
+    width: 95vw;
     align-content: center;
   }
-} */
+}
