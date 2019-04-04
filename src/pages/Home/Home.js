@@ -6,7 +6,7 @@ class HomePage extends Component {
   render() {
     return (
       <>
-        <div className="container  wow fadeIn">
+        <div className="container wow fadeIn">
           <div className="card">
 
             <div className="card-header">
@@ -22,15 +22,11 @@ class HomePage extends Component {
                   minor in Business Administration. After graduating from college, I eventually landed a job as an
                   Account Executive with a staffing agency that focused on the IT & Engineering industries. Over my
                   time there, I began to understand the massive scope of the IT industry and learned all about the
-                  different positions and what their functions were. It was then that I realized what I wanted to do
-                  with my life. I wanted to fully immerse myself in the world of Information Technology. </p>
+                  different positions and what their functions were. It was then that I realized I wanted to pursue
+                  a career that I was truly passionate about. Since then I have dedicated myself to becoming a developer.</p>
 
-              <p>After moving to Charlotte, I really started to drill down on what specifically I wanted to do for a
-                  career. After months of evaluating the myriad of options available, I settled on the 12 week UNCC
-                  Coding Bootcamp.</p>
-
-              <p>During my short tenure in web development and coding, I have come to truly enjoy both Front End
-                  and Back End work. I have specifically come to love working with Javascript and databases such as Mongo DB and MySQL.
+              <p>During my tenure in web development, I have come to truly enjoy both Front End
+                  and Back End work. I have specifically come to love working with Javascript, React, and Python. As well as databases such as Mongo DB and MySQL.
                   I am seeking an opportunity that will allow me to utilize the vast amount of knowledge that I have gained to contribute to an organization's overall success.</p>
             </div>
           </div>
