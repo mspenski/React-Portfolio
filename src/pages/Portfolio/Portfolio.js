@@ -14,7 +14,7 @@ class Portfolio extends Component {
               <img src={omega} alt='Omega Chat' />
             </a>
           </div>
-          <div className="col-md-3 wow fadeIn">
+          <div className="col-md-3 wow fadeIn" data-wow-delay='.5s'>
             <h4>Omega Chat</h4>
             <p className='text' id='text1'>
               This app was created to simplify and improve communication between members of large Greek Life Organizations. This project was the final project of the bootcamp, and also my brain child, so I was in charge of the entire backend as well as about half of the front end
@@ -32,7 +32,7 @@ class Portfolio extends Component {
               <img src={college} alt='college' />
             </a>
           </div>
-          <div className="col-lg-3 wow fadeIn">
+          <div className="col-lg-3 wow fadeIn" data-wow-delay='.5s'>
             <h4>COL-lege</h4>
             <p className='text' id='text2'>
               COL-edge takes national averages for cost of living and gives that to our users in plain US dollars, while at the same time gives our users the power of camparison: between the average pay associated with a given degree and the place a graduate might choose to live.
@@ -52,15 +52,18 @@ class Portfolio extends Component {
             </a>
           </div>
 
-          <div className="col-lg-3 wow fadeIn">
+          <div className="col-lg-3 wow fadeIn" data-wow-delay='.5s'>
             <h4>Bamazon</h4>
             <p className='text' id='text3'>
               I created Bamazon as a homework assignment that is meant to function similar to how a site like Amazon would if it were run solely in NodeJS.
-   For this project I used Node, MySQL, Inquirer, & Javascript</p>
+              For this project I used Node, MySQL, Inquirer, & Javascript</p>
             <p className='text' id='text2'><a href="https://github.com/mspenski/bamazon" target="_blank" rel='noopener noreferrer'>See Project Repo</a></p>
             <p className='text' id='text2'><a href="https://drive.google.com/file/d/1coD9LLlMXrMc5LipFRjA0Za5X1jw32RY/view" target="_blank" rel='noopener noreferrer'>See Demo Video</a></p>
           </div>
 
+        </div>
+        <div className="otherProjects wow slideInUp">
+          <h5><i className="fab fa-github"></i> <a href="https://github.com/mspenski" target="_blank" rel='noopener noreferrer'>See my other projects on github </a></h5>
         </div>
       </>
     )
