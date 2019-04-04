@@ -5,12 +5,17 @@ import Contact from '../../pages/Contact/Contact'
 import Portfolio from '../../pages/Portfolio/Portfolio'
 import NotFound from '../../pages/NotFound/NotFound'
 import Nav from '../Nav/Nav'
+import WOW from 'wowjs'
+
 // import Footer from '../Footer/Footer'
 
 import './App.css';
 
 
 class App extends Component {
+  componentDidMount() {
+    new WOW.WOW().init()
+  }
   render() {
     return (
       <div className="App">

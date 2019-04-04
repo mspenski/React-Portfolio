@@ -8,7 +8,7 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <div className="row">
+        <div className="row wow fadeIn">
           <div className="col-md-9">
             <a href="https://rocky-island-31181.herokuapp.com" target="_blank" rel='noopener noreferrer'>
               <img src={omega} alt='Omega Chat' />
@@ -26,7 +26,7 @@ class Portfolio extends Component {
 
         <br />
 
-        <div className="row">
+        <div className="row wow fadeIn">
           <div className="col-lg-9">
             <a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>
               <img src={college} alt='college' />
@@ -45,7 +45,7 @@ class Portfolio extends Component {
 
         </div>
         <br />
-        <div className="row" id='row3'>
+        <div className="row wow fadeIn" id='row3'>
           <div className="col-lg-9">
             <a href="https://drive.google.com/file/d/1coD9LLlMXrMc5LipFRjA0Za5X1jw32RY/view" target="_blank" rel='noopener noreferrer'>
               <img src={bamazon} alt='bamazon' />
