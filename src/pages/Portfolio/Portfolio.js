@@ -23,9 +23,7 @@ class Portfolio extends Component {
             {/* <p className='text' id='text1'><a href="https://rocky-island-31181.herokuapp.com" target="_blank" rel='noopener noreferrer'>See Deployed Project</a></p> */}
           </div>
         </div>
-
         <br />
-
         <div className="row">
           <div className="col-lg-9 wow fadeIn">
             <a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>
@@ -40,9 +38,6 @@ class Portfolio extends Component {
             <p className='text' id='text2'><a href="https://github.com/dashinja/COL-edge" target="_blank" rel='noopener noreferrer'>Project Repo</a> | <a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>Deployed Project</a></p>
             {/* <p className='text' id='text2'><a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>See Deployed Project</a></p> */}
           </div>
-
-
-
         </div>
         <br />
         <div className="row" id='row3'>
@@ -51,16 +46,13 @@ class Portfolio extends Component {
               <img src={bamazon} alt='bamazon' />
             </a>
           </div>
-
           <div className="col-lg-3 wow fadeIn" data-wow-delay='.5s'>
             <h4>Bamazon</h4>
             <p className='text' id='text3'>
               I created Bamazon as a homework assignment that is meant to function similar to how a site like Amazon would if it were run solely in NodeJS.
               For this project I used Node, MySQL, Inquirer, & Javascript</p>
             <p className='text' id='text2'><a href="https://github.com/mspenski/bamazon" target="_blank" rel='noopener noreferrer'>Project Repo</a> | <a href="https://drive.google.com/file/d/1coD9LLlMXrMc5LipFRjA0Za5X1jw32RY/view" target="_blank" rel='noopener noreferrer'>Demo Video</a></p>
-            {/* <p className='text' id='text2'><a href="https://drive.google.com/file/d/1coD9LLlMXrMc5LipFRjA0Za5X1jw32RY/view" target="_blank" rel='noopener noreferrer'>See Demo Video</a></p> */}
           </div>
-
         </div>
         <div className="otherProjects wow fadeIn" data-wow-delay='.5s'>
           <h5><i className="fab fa-github"></i> <a href="https://github.com/mspenski" target="_blank" rel='noopener noreferrer'>See my other projects on github </a></h5>

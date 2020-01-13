@@ -6,9 +6,6 @@ import Portfolio from '../../pages/Portfolio/Portfolio'
 import NotFound from '../../pages/NotFound/NotFound'
 import Nav from '../Nav/Nav'
 import WOW from 'wowjs'
-
-// import Footer from '../Footer/Footer'
-
 import './App.css';
 
 
@@ -20,7 +17,6 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-
         <div className='container'>
           <Switch>
             <Route exact path='/' component={Home} />
@@ -30,7 +26,6 @@ class App extends Component {
             <Route component={NotFound} />
           </Switch>
         </div>
-        {/* <Footer /> */}
       </div>
     );
   }
