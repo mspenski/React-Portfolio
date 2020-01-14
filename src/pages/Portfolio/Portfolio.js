@@ -23,7 +23,7 @@ class Portfolio extends Component {
             {/* <p className='text' id='text1'><a href="https://rocky-island-31181.herokuapp.com" target="_blank" rel='noopener noreferrer'>See Deployed Project</a></p> */}
           </div>
         </div>
-        <br />
+
         <div className="row">
           <div className="col-lg-9 wow fadeIn">
             <a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
             {/* <p className='text' id='text2'><a href="https://puffroi.herokuapp.com" target="_blank" rel='noopener noreferrer'>See Deployed Project</a></p> */}
           </div>
         </div>
-        <br />
+
         <div className="row" id='row3'>
           <div className="col-lg-9 wow fadeIn">
             <a href="https://drive.google.com/file/d/1coD9LLlMXrMc5LipFRjA0Za5X1jw32RY/view" target="_blank" rel='noopener noreferrer'>
