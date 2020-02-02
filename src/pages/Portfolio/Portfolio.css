@@ -2,7 +2,11 @@
   box-sizing: border-box
 } */
 
-
+h1 {
+  font-weight: bold;
+  border-bottom: 1px;
+  margin: 0 auto
+}
 .row {
   width: 100%;
   padding: 10px;
@@ -17,7 +21,7 @@ img {
   /* margin-left: 0px;
   margin-right: 0px; */
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 3vh;
 }
 
 .text,
