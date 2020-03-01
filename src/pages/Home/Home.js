@@ -8,9 +8,6 @@ class HomePage extends Component {
       <>
         <div className="container wow fadeIn">
           <div className="card">
-            <div className="card-header">
-              <h1>About Me</h1>
-            </div>
             <div className="card-body">
               <img src={pic} className="auth-image" alt="Mitchell Spenski" />
               <p> Hello, my name is Mitchell Spenski and I am a Full Stack Developer
